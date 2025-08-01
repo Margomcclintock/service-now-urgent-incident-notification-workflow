@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="15mktb6RQoakr4Y1FKlu">
+    <mxGraphModel dx="1426" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gGogjNRpgTds--xTzMBp-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gGogjNRpgTds--xTzMBp-2" target="gGogjNRpgTds--xTzMBp-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="130" />
+              <mxPoint x="180" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-2" value="New Incident created" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-5" value="Priority 1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGogjNRpgTds--xTzMBp-19" target="gGogjNRpgTds--xTzMBp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-9" value="Categories is Network&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="30" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-10" value="Send email to Network Operations Team" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGogjNRpgTds--xTzMBp-16" target="gGogjNRpgTds--xTzMBp-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-16" value="Reroute to normal escalation workflow" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="153" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-19" value="Critical Network flow&amp;nbsp; Triggered&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-27" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="168" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-28" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="23" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGogjNRpgTds--xTzMBp-29" target="gGogjNRpgTds--xTzMBp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-29" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="10" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-30" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="120" as="sourcePoint" />
+            <mxPoint x="683" y="193" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="788" y="120" />
+              <mxPoint x="788" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGogjNRpgTds--xTzMBp-25" target="gGogjNRpgTds--xTzMBp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-25" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGogjNRpgTds--xTzMBp-37" target="gGogjNRpgTds--xTzMBp-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-37" value="Normal Escalation Workflow Triggered" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="153" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGogjNRpgTds--xTzMBp-39" value="Email sent to normal escalation Team" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="293" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
