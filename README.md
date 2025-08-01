@@ -28,22 +28,32 @@ To properly configure the flow, I first identified the areas that were preventin
 I corrected the implementation so SLAs won’t be missed for future critical networking events. First, I updated the **flow trigger** to include the condition:
 `Category is Network AND Priority is Critical`.
 Using **AND** ensures that both conditions must be met before the flow is triggered.
+<img width="1591" height="616" alt="image" src="https://github.com/user-attachments/assets/8107c3ba-7a94-4884-94c4-a87682290cd4" />
 
 After setting the correct trigger, I updated the **action** to "Send Notification," specifically as an **email**.
+<img width="791" height="293" alt="image" src="https://github.com/user-attachments/assets/1857ffbd-1a6b-4763-be54-8050f9c9c45e" />
+
 
 Next, I opened the **Notification record** to verify all the settings were correct:
 
 * Ensured the **table** was set to **Incident**
 * Confirmed the **Active** checkbox was selected
+  <img width="956" height="207" alt="image" src="https://github.com/user-attachments/assets/11b9f83c-2815-4d33-9b1e-608c96c9df68" />
+
 * Reviewed all three core tabs:
 
-  * **When to Send**: Set to **Triggered**, since it’s being launched by the flow
-  * **Who Will Receive**: Set to the **Network Operations group**
-  * **What It Will Contain**: Added a meaningful message body for the email
+  * **When to Send**: Set to **Triggered**, since it’s being launched by the flow <img width="810" height="185" alt="image" src="https://github.com/user-attachments/assets/9b56189e-439a-42ce-9738-9cf8bc31bc6b" />
+
+  * **Who Will Receive**: Set to the **Network Operations group** <img width="824" height="159" alt="image" src="https://github.com/user-attachments/assets/1ea1d38e-2282-418c-a3d5-cdbbc9ac0464" />
+
+  * **What It Will Contain**: Added a meaningful message body for the email<img width="802" height="331" alt="image" src="https://github.com/user-attachments/assets/f6c28d83-36a9-4c39-bb78-ed901adac8dd" />
+
 
 ### Testing the Fix
 
-To test, I created a new incident assigned to the Networking group and set the priority to Critical. After submitting, I checked the **Email Outbox** in ServiceNow and confirmed that the Network Operations team received the notification **within seconds** of incident creation.
+To test, I created a new incident assigned to the Networking group and set the priority to Critical. <img width="932" height="225" alt="image" src="https://github.com/user-attachments/assets/df99f504-529b-4057-b334-b93e453c96e3" />
+After submitting, I checked the **Email Outbox** in ServiceNow and confirmed that the Network Operations team received the notification **within seconds** of incident creation.<img width="957" height="341" alt="image" src="https://github.com/user-attachments/assets/a4ce77da-0a08-4c1a-a13f-66566550ce81" />
+
 
 ---
 
