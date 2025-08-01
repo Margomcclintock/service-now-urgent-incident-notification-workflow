@@ -54,6 +54,8 @@ Next, I opened the **Notification record** to verify all the settings were corre
 To test, I created a new incident assigned to the Networking group and set the priority to Critical. <img width="932" height="225" alt="image" src="https://github.com/user-attachments/assets/df99f504-529b-4057-b334-b93e453c96e3" />
 After submitting, I checked the **Email Outbox** in ServiceNow and confirmed that the Network Operations team received the notification **within seconds** of incident creation.<img width="957" height="341" alt="image" src="https://github.com/user-attachments/assets/a4ce77da-0a08-4c1a-a13f-66566550ce81" />
 
+---
+## Workflow <img width="4004" height="1516" alt="image" src="https://github.com/user-attachments/assets/8821093d-728b-4661-8aef-746be7c8ab60" />
 
 ---
 
