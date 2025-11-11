@@ -18,8 +18,10 @@ Your manager discovered that critical network incidents aren't triggering email 
 Investigate and fix whatever is preventing the notification system from working before the next critical incident occurs. The goal is to make sure urgent network incidents trigger immediate email notifications to IT engineers, helping prevent SLA breaches.
 
 ---
-## Architecture Diagram
-<img width="547" height="378" alt="image" src="https://github.com/user-attachments/assets/aa8b36a2-9ebd-4674-a9b3-7bebd462a0f8" />
+## Architecture Diagram  
+<img width="546" height="280" alt="image" src="https://github.com/user-attachments/assets/f2e032b2-2007-4aaa-a152-ffbcca45758d" /> 
+
+
 
 
 
@@ -61,7 +63,7 @@ To test, I created a new incident assigned to the Networking group and set the p
 After submitting, I checked the **Email Outbox** in ServiceNow and confirmed that the Network Operations team received the notification **within seconds** of incident creation.<img width="957" height="341" alt="image" src="https://github.com/user-attachments/assets/a4ce77da-0a08-4c1a-a13f-66566550ce81" />
 
 ---
-## Workflow <img width="4004" height="1516" alt="image" src="https://github.com/user-attachments/assets/8821093d-728b-4661-8aef-746be7c8ab60" />
+
 
 ---
 
