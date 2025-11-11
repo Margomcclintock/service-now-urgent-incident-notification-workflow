@@ -19,7 +19,8 @@ Investigate and fix whatever is preventing the notification system from working 
 
 ---
 ## Architecture Diagram
-<img width="598" height="398" alt="image" src="https://github.com/user-attachments/assets/18a69c5e-91ef-45d3-9a73-a200ae8751ec" />
+<img width="547" height="378" alt="image" src="https://github.com/user-attachments/assets/aa8b36a2-9ebd-4674-a9b3-7bebd462a0f8" />
+
 
 
 ---
