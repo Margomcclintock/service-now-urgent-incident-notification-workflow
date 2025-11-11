@@ -18,6 +18,10 @@ Your manager discovered that critical network incidents aren't triggering email 
 Investigate and fix whatever is preventing the notification system from working before the next critical incident occurs. The goal is to make sure urgent network incidents trigger immediate email notifications to IT engineers, helping prevent SLA breaches.
 
 ---
+## Architecture Diagram
+<img width="757" height="341" alt="image" src="https://github.com/user-attachments/assets/30f4b7d6-c80c-4a75-be9c-24e92ad83db0" />
+
+---
 
 ## Implementation Steps
 
